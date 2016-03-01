@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ACBBD2B1C85E9AA0028B948 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD2A1C85E9AA0028B948 /* main.m */; };
+		6ACBBD2E1C85E9AA0028B948 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD2D1C85E9AA0028B948 /* AppDelegate.m */; };
+		6ACBBD311C85E9AA0028B948 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD301C85E9AA0028B948 /* ViewController.m */; };
+		6ACBBD341C85E9AA0028B948 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACBBD321C85E9AA0028B948 /* Main.storyboard */; };
+		6ACBBD361C85E9AA0028B948 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ACBBD351C85E9AA0028B948 /* Assets.xcassets */; };
+		6ACBBD391C85E9AA0028B948 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ACBBD371C85E9AA0028B948 /* LaunchScreen.storyboard */; };
+		6ACBBD441C85E9AA0028B948 /* MQCashRegisterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD431C85E9AA0028B948 /* MQCashRegisterTests.m */; };
+		6ACBBD5E1C85EAE50028B948 /* MQAdditionalItemPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD4F1C85EAE50028B948 /* MQAdditionalItemPromotion.m */; };
+		6ACBBD5F1C85EAE50028B948 /* MQCashRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD511C85EAE50028B948 /* MQCashRegister.m */; };
+		6ACBBD601C85EAE50028B948 /* MQCommodity.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD531C85EAE50028B948 /* MQCommodity.m */; };
+		6ACBBD611C85EAE50028B948 /* MQDiscountPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD551C85EAE50028B948 /* MQDiscountPromotion.m */; };
+		6ACBBD621C85EAE50028B948 /* MQPromotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD571C85EAE50028B948 /* MQPromotion.m */; };
+		6ACBBD631C85EAE50028B948 /* MQPurchasedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD591C85EAE50028B948 /* MQPurchasedItem.m */; };
+		6ACBBD641C85EAE50028B948 /* MQReceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD5B1C85EAE50028B948 /* MQReceipt.m */; };
+		6ACBBD651C85EAE50028B948 /* MQReceiptGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD5D1C85EAE50028B948 /* MQReceiptGenerator.m */; };
+		6ACBBD681C85FFC70028B948 /* MQCommodityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBBD671C85FFC70028B948 /* MQCommodityService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ACBBD401C85E9AA0028B948 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ACBBD1E1C85E9AA0028B948 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ACBBD251C85E9AA0028B948;
+			remoteInfo = MQCashRegister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ACBBD261C85E9AA0028B948 /* MQCashRegister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQCashRegister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACBBD2A1C85E9AA0028B948 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6ACBBD2C1C85E9AA0028B948 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6ACBBD2D1C85E9AA0028B948 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6ACBBD2F1C85E9AA0028B948 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6ACBBD301C85E9AA0028B948 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6ACBBD331C85E9AA0028B948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ACBBD351C85E9AA0028B948 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ACBBD381C85E9AA0028B948 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ACBBD3A1C85E9AA0028B948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACBBD3F1C85E9AA0028B948 /* MQCashRegisterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQCashRegisterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACBBD431C85E9AA0028B948 /* MQCashRegisterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQCashRegisterTests.m; sourceTree = "<group>"; };
+		6ACBBD451C85E9AA0028B948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ACBBD4E1C85EAE50028B948 /* MQAdditionalItemPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQAdditionalItemPromotion.h; sourceTree = "<group>"; };
+		6ACBBD4F1C85EAE50028B948 /* MQAdditionalItemPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQAdditionalItemPromotion.m; sourceTree = "<group>"; };
+		6ACBBD501C85EAE50028B948 /* MQCashRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQCashRegister.h; sourceTree = "<group>"; };
+		6ACBBD511C85EAE50028B948 /* MQCashRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQCashRegister.m; sourceTree = "<group>"; };
+		6ACBBD521C85EAE50028B948 /* MQCommodity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQCommodity.h; sourceTree = "<group>"; };
+		6ACBBD531C85EAE50028B948 /* MQCommodity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQCommodity.m; sourceTree = "<group>"; };
+		6ACBBD541C85EAE50028B948 /* MQDiscountPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQDiscountPromotion.h; sourceTree = "<group>"; };
+		6ACBBD551C85EAE50028B948 /* MQDiscountPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQDiscountPromotion.m; sourceTree = "<group>"; };
+		6ACBBD561C85EAE50028B948 /* MQPromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPromotion.h; sourceTree = "<group>"; };
+		6ACBBD571C85EAE50028B948 /* MQPromotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPromotion.m; sourceTree = "<group>"; };
+		6ACBBD581C85EAE50028B948 /* MQPurchasedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQPurchasedItem.h; sourceTree = "<group>"; };
+		6ACBBD591C85EAE50028B948 /* MQPurchasedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQPurchasedItem.m; sourceTree = "<group>"; };
+		6ACBBD5A1C85EAE50028B948 /* MQReceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQReceipt.h; sourceTree = "<group>"; };
+		6ACBBD5B1C85EAE50028B948 /* MQReceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQReceipt.m; sourceTree = "<group>"; };
+		6ACBBD5C1C85EAE50028B948 /* MQReceiptGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQReceiptGenerator.h; sourceTree = "<group>"; };
+		6ACBBD5D1C85EAE50028B948 /* MQReceiptGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQReceiptGenerator.m; sourceTree = "<group>"; };
+		6ACBBD661C85FFC70028B948 /* MQCommodityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQCommodityService.h; sourceTree = "<group>"; };
+		6ACBBD671C85FFC70028B948 /* MQCommodityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQCommodityService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ACBBD231C85E9AA0028B948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACBBD3C1C85E9AA0028B948 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ACBBD1D1C85E9AA0028B948 = {
+			isa = PBXGroup;
+			children = (
+				6ACBBD281C85E9AA0028B948 /* MQCashRegister */,
+				6ACBBD421C85E9AA0028B948 /* MQCashRegisterTests */,
+				6ACBBD271C85E9AA0028B948 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ACBBD271C85E9AA0028B948 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ACBBD261C85E9AA0028B948 /* MQCashRegister.app */,
+				6ACBBD3F1C85E9AA0028B948 /* MQCashRegisterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ACBBD281C85E9AA0028B948 /* MQCashRegister */ = {
+			isa = PBXGroup;
+			children = (
+				6ACBBD2C1C85E9AA0028B948 /* AppDelegate.h */,
+				6ACBBD2D1C85E9AA0028B948 /* AppDelegate.m */,
+				6ACBBD2F1C85E9AA0028B948 /* ViewController.h */,
+				6ACBBD301C85E9AA0028B948 /* ViewController.m */,
+				6ACBBD321C85E9AA0028B948 /* Main.storyboard */,
+				6ACBBD351C85E9AA0028B948 /* Assets.xcassets */,
+				6ACBBD371C85E9AA0028B948 /* LaunchScreen.storyboard */,
+				6ACBBD3A1C85E9AA0028B948 /* Info.plist */,
+				6ACBBD501C85EAE50028B948 /* MQCashRegister.h */,
+				6ACBBD511C85EAE50028B948 /* MQCashRegister.m */,
+				6ACBBD5C1C85EAE50028B948 /* MQReceiptGenerator.h */,
+				6ACBBD5D1C85EAE50028B948 /* MQReceiptGenerator.m */,
+				6ACBBD5A1C85EAE50028B948 /* MQReceipt.h */,
+				6ACBBD5B1C85EAE50028B948 /* MQReceipt.m */,
+				6ACBBD521C85EAE50028B948 /* MQCommodity.h */,
+				6ACBBD531C85EAE50028B948 /* MQCommodity.m */,
+				6ACBBD661C85FFC70028B948 /* MQCommodityService.h */,
+				6ACBBD671C85FFC70028B948 /* MQCommodityService.m */,
+				6ACBBD581C85EAE50028B948 /* MQPurchasedItem.h */,
+				6ACBBD591C85EAE50028B948 /* MQPurchasedItem.m */,
+				6ACBBD561C85EAE50028B948 /* MQPromotion.h */,
+				6ACBBD571C85EAE50028B948 /* MQPromotion.m */,
+				6ACBBD541C85EAE50028B948 /* MQDiscountPromotion.h */,
+				6ACBBD551C85EAE50028B948 /* MQDiscountPromotion.m */,
+				6ACBBD4E1C85EAE50028B948 /* MQAdditionalItemPromotion.h */,
+				6ACBBD4F1C85EAE50028B948 /* MQAdditionalItemPromotion.m */,
+				6ACBBD291C85E9AA0028B948 /* Supporting Files */,
+			);
+			path = MQCashRegister;
+			sourceTree = "<group>";
+		};
+		6ACBBD291C85E9AA0028B948 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6ACBBD2A1C85E9AA0028B948 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6ACBBD421C85E9AA0028B948 /* MQCashRegisterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ACBBD431C85E9AA0028B948 /* MQCashRegisterTests.m */,
+				6ACBBD451C85E9AA0028B948 /* Info.plist */,
+			);
+			path = MQCashRegisterTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ACBBD251C85E9AA0028B948 /* MQCashRegister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACBBD481C85E9AA0028B948 /* Build configuration list for PBXNativeTarget "MQCashRegister" */;
+			buildPhases = (
+				6ACBBD221C85E9AA0028B948 /* Sources */,
+				6ACBBD231C85E9AA0028B948 /* Frameworks */,
+				6ACBBD241C85E9AA0028B948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MQCashRegister;
+			productName = MQCashRegister;
+			productReference = 6ACBBD261C85E9AA0028B948 /* MQCashRegister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ACBBD3E1C85E9AA0028B948 /* MQCashRegisterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACBBD4B1C85E9AA0028B948 /* Build configuration list for PBXNativeTarget "MQCashRegisterTests" */;
+			buildPhases = (
+				6ACBBD3B1C85E9AA0028B948 /* Sources */,
+				6ACBBD3C1C85E9AA0028B948 /* Frameworks */,
+				6ACBBD3D1C85E9AA0028B948 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ACBBD411C85E9AA0028B948 /* PBXTargetDependency */,
+			);
+			name = MQCashRegisterTests;
+			productName = MQCashRegisterTests;
+			productReference = 6ACBBD3F1C85E9AA0028B948 /* MQCashRegisterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ACBBD1E1C85E9AA0028B948 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gu Jun";
+				TargetAttributes = {
+					6ACBBD251C85E9AA0028B948 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					6ACBBD3E1C85E9AA0028B948 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 6ACBBD251C85E9AA0028B948;
+					};
+				};
+			};
+			buildConfigurationList = 6ACBBD211C85E9AA0028B948 /* Build configuration list for PBXProject "MQCashRegister" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ACBBD1D1C85E9AA0028B948;
+			productRefGroup = 6ACBBD271C85E9AA0028B948 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ACBBD251C85E9AA0028B948 /* MQCashRegister */,
+				6ACBBD3E1C85E9AA0028B948 /* MQCashRegisterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ACBBD241C85E9AA0028B948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACBBD391C85E9AA0028B948 /* LaunchScreen.storyboard in Resources */,
+				6ACBBD361C85E9AA0028B948 /* Assets.xcassets in Resources */,
+				6ACBBD341C85E9AA0028B948 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACBBD3D1C85E9AA0028B948 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ACBBD221C85E9AA0028B948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACBBD311C85E9AA0028B948 /* ViewController.m in Sources */,
+				6ACBBD611C85EAE50028B948 /* MQDiscountPromotion.m in Sources */,
+				6ACBBD601C85EAE50028B948 /* MQCommodity.m in Sources */,
+				6ACBBD2E1C85E9AA0028B948 /* AppDelegate.m in Sources */,
+				6ACBBD641C85EAE50028B948 /* MQReceipt.m in Sources */,
+				6ACBBD651C85EAE50028B948 /* MQReceiptGenerator.m in Sources */,
+				6ACBBD2B1C85E9AA0028B948 /* main.m in Sources */,
+				6ACBBD681C85FFC70028B948 /* MQCommodityService.m in Sources */,
+				6ACBBD631C85EAE50028B948 /* MQPurchasedItem.m in Sources */,
+				6ACBBD621C85EAE50028B948 /* MQPromotion.m in Sources */,
+				6ACBBD5E1C85EAE50028B948 /* MQAdditionalItemPromotion.m in Sources */,
+				6ACBBD5F1C85EAE50028B948 /* MQCashRegister.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACBBD3B1C85E9AA0028B948 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ACBBD441C85E9AA0028B948 /* MQCashRegisterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ACBBD411C85E9AA0028B948 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ACBBD251C85E9AA0028B948 /* MQCashRegister */;
+			targetProxy = 6ACBBD401C85E9AA0028B948 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ACBBD321C85E9AA0028B948 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACBBD331C85E9AA0028B948 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ACBBD371C85E9AA0028B948 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ACBBD381C85E9AA0028B948 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ACBBD461C85E9AA0028B948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6ACBBD471C85E9AA0028B948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ACBBD491C85E9AA0028B948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MQCashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.cadidate.gujun.MQCashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6ACBBD4A1C85E9AA0028B948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MQCashRegister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.cadidate.gujun.MQCashRegister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6ACBBD4C1C85E9AA0028B948 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MQCashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.cadidate.gujun.MQCashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQCashRegister.app/MQCashRegister";
+			};
+			name = Debug;
+		};
+		6ACBBD4D1C85E9AA0028B948 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MQCashRegisterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thoughtworks.cadidate.gujun.MQCashRegisterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MQCashRegister.app/MQCashRegister";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ACBBD211C85E9AA0028B948 /* Build configuration list for PBXProject "MQCashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACBBD461C85E9AA0028B948 /* Debug */,
+				6ACBBD471C85E9AA0028B948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ACBBD481C85E9AA0028B948 /* Build configuration list for PBXNativeTarget "MQCashRegister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACBBD491C85E9AA0028B948 /* Debug */,
+				6ACBBD4A1C85E9AA0028B948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ACBBD4B1C85E9AA0028B948 /* Build configuration list for PBXNativeTarget "MQCashRegisterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ACBBD4C1C85E9AA0028B948 /* Debug */,
+				6ACBBD4D1C85E9AA0028B948 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ACBBD1E1C85E9AA0028B948 /* Project object */;
+}
